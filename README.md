@@ -16,11 +16,9 @@ The goal is to consolidate knowledge and serve as a reference for future project
 - Environment-based configuration (profiles / environment variables)
 - Reactive stack with Spring WebFlux
 
-## Configuration
-
-Routes target URIs are externalized and can be configured via:
-
-### `application.yml`
-```yaml
-uri:
-  httpbin: http://httpbin.org:80
+Technologies
+Java 17+
+Spring Boot 3.x
+Spring Cloud Gateway
+Spring WebFlux
+Reactor Netty
